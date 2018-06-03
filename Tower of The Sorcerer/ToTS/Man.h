@@ -6,6 +6,9 @@
 class Man
 {
 public:
+	Man();
+	~Man();
+
 	int GetHP();
 	int GetATK();
 	int GetDEF();
